@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:radial-gradient(circle,#0f0f0f,#000000) ;
+}
+.clock{
+    color: #00ffcc;
+    font-size: 5rem;
+    text-shadow: 0px 0px 10px #074e409c , 0 0 20px  ;
+    border: 5px solid ;
+    border-radius: 20px;
+    padding: 30px 50px;
+    background: rgba(0, 0,0, 0.6);
+    box-shadow: 0 0 20px #00ffcc;
+}
